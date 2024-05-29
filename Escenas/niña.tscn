@@ -1,0 +1,9 @@
+[gd_scene load_steps=2 format=3 uid="uid://5f8ty8ajg4ly"]
+
+[ext_resource type="Texture2D" uid="uid://dsil3tbml5kgh" path="res://Assets/Sprites/Personajes Jugables/Niña/Imagen de referencia.webp" id="1_i12li"]
+
+[node name="Niña" type="Node2D"]
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+position = Vector2(436, 263)
+texture = ExtResource("1_i12li")

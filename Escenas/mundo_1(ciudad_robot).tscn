@@ -1,0 +1,18 @@
+[gd_scene load_steps=3 format=3 uid="uid://lhyrj7o870k0"]
+
+[ext_resource type="Texture2D" uid="uid://ddks7g53e1rpb" path="res://Assets/Escenarios/Piso referencia.jpg" id="1_hkulg"]
+
+[sub_resource type="WorldBoundaryShape3D" id="WorldBoundaryShape3D_fattv"]
+
+[node name="Mundo 1(Ciudad robot)" type="Node3D"]
+
+[node name="Area3D" type="Area3D" parent="."]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Area3D"]
+shape = SubResource("WorldBoundaryShape3D_fattv")
+
+[node name="Sprite3D" type="Sprite3D" parent="Area3D"]
+transform = Transform3D(0.0501746, -0.998741, 0, 0.106633, 0.00535701, 0.994284, -0.993032, -0.0498878, 0.106767, 0.0597875, 0, 0)
+transparency = 0.8
+flip_v = true
+texture = ExtResource("1_hkulg")

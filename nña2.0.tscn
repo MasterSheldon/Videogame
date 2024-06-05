@@ -1,0 +1,16 @@
+[gd_scene load_steps=4 format=3 uid="uid://db8q7ecqjic0q"]
+
+[ext_resource type="Script" path="res://Escenas/CharacterBody3D.gd" id="1_i45eh"]
+[ext_resource type="Texture2D" uid="uid://c80xyqhaovmv3" path="res://Assets/Sprites/Personajes Jugables/Niña/Boceto 2.jpg" id="2_yddvn"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_cc28p"]
+
+[node name="CharacterBody3D" type="CharacterBody3D"]
+script = ExtResource("1_i45eh")
+
+[node name="Sprite3D" type="Sprite3D" parent="."]
+pixel_size = 0.001
+texture = ExtResource("2_yddvn")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="."]
+shape = SubResource("BoxShape3D_cc28p")

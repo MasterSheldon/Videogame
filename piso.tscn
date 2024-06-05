@@ -1,0 +1,15 @@
+[gd_scene load_steps=3 format=3 uid="uid://cvsb6ik6fkt61"]
+
+[ext_resource type="Texture2D" uid="uid://crdply31ji7sj" path="res://Assets/Escenarios/cafe.jpg" id="1_2ul2t"]
+
+[sub_resource type="WorldBoundaryShape3D" id="WorldBoundaryShape3D_damkx"]
+
+[node name="StaticBody3D" type="StaticBody3D"]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="."]
+shape = SubResource("WorldBoundaryShape3D_damkx")
+
+[node name="Sprite3D" type="Sprite3D" parent="."]
+transform = Transform3D(2.00441, 0, 0, 0, 2.00441, 0, 0, 0, 2.00441, 0.0670743, 0, 0.0381598)
+axis = 1
+texture = ExtResource("1_2ul2t")

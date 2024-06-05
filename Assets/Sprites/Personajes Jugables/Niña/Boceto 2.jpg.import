@@ -2,8 +2,8 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://ddks7g53e1rpb"
-path.s3tc="res://.godot/imported/Piso referencia.jpg-f0a5d5ee3edd694c520a6817e97e4733.s3tc.ctex"
+uid="uid://c80xyqhaovmv3"
+path.s3tc="res://.godot/imported/Boceto 2.jpg-77fdceeae86c269badc3a1dafa438195.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
@@ -11,8 +11,8 @@ metadata={
 
 [deps]
 
-source_file="res://Assets/Escenarios/Piso referencia.jpg"
-dest_files=["res://.godot/imported/Piso referencia.jpg-f0a5d5ee3edd694c520a6817e97e4733.s3tc.ctex"]
+source_file="res://Assets/Sprites/Personajes Jugables/Niña/Boceto 2.jpg"
+dest_files=["res://.godot/imported/Boceto 2.jpg-77fdceeae86c269badc3a1dafa438195.s3tc.ctex"]
 
 [params]
 

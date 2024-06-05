@@ -1,18 +1,18 @@
 [gd_scene load_steps=3 format=3 uid="uid://lhyrj7o870k0"]
 
-[ext_resource type="Texture2D" uid="uid://ddks7g53e1rpb" path="res://Assets/Escenarios/Piso referencia.jpg" id="1_hkulg"]
-
-[sub_resource type="WorldBoundaryShape3D" id="WorldBoundaryShape3D_fattv"]
+[ext_resource type="PackedScene" uid="uid://cvsb6ik6fkt61" path="res://piso.tscn" id="2_iretv"]
+[ext_resource type="PackedScene" uid="uid://db8q7ecqjic0q" path="res://nña2.0.tscn" id="2_iuwi2"]
 
 [node name="Mundo 1(Ciudad robot)" type="Node3D"]
 
-[node name="Area3D" type="Area3D" parent="."]
+[node name="StaticBody3D" parent="." instance=ExtResource("2_iretv")]
 
-[node name="CollisionShape3D" type="CollisionShape3D" parent="Area3D"]
-shape = SubResource("WorldBoundaryShape3D_fattv")
+[node name="CharacterBody3D" parent="." instance=ExtResource("2_iuwi2")]
+transform = Transform3D(1, 0, 0, 0, 0.99957, 0.0293348, 0, -0.0293348, 0.99957, -0.407995, -0.0122538, 2.7277)
+motion_mode = 1
+pixeles_por_metro = 15.0
+rapidez = 1.0
 
-[node name="Sprite3D" type="Sprite3D" parent="Area3D"]
-transform = Transform3D(0.0501746, -0.998741, 0, 0.106633, 0.00535701, 0.994284, -0.993032, -0.0498878, 0.106767, 0.0597875, 0, 0)
-transparency = 0.8
-flip_v = true
-texture = ExtResource("1_hkulg")
+[node name="Camera3D" type="Camera3D" parent="CharacterBody3D"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -0.0209683, 0.714487)
+current = true

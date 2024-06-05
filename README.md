@@ -1,0 +1,1 @@
+Hola, me llamo Sheldon y soy un desarrollador de videojuegos novato si llegaste por casualidad a este proyecto, te invito a probarlo y me digas tu opinion, si aun no he avanzado algo es por que ando viendo como funciona github nos vemos

@@ -1,0 +1,29 @@
+[gd_scene load_steps=3 format=3 uid="uid://bulb7kojk6i05"]
+
+[ext_resource type="Texture2D" uid="uid://c80xyqhaovmv3" path="res://Assets/Sprites/Personajes Jugables/Niña/Boceto 2.jpg" id="1_4hptf"]
+[ext_resource type="Texture2D" uid="uid://crdply31ji7sj" path="res://Assets/Escenarios/cafe.jpg" id="2_cbcai"]
+
+[node name="Batalla" type="Node3D"]
+
+[node name="PIZF" type="Sprite3D" parent="."]
+transform = Transform3D(0.0963037, 0, 0, 0, 0.0963037, 0, 0, 0, 0.0963037, -0.645, 0.015, 1.25)
+texture = ExtResource("1_4hptf")
+
+[node name="PIZF2" type="Sprite3D" parent="."]
+transform = Transform3D(0.0963037, 0, 0, 0, 0.0963037, 0, 0, 0, 0.0963037, 0.645, 0.015, 1.25)
+texture = ExtResource("1_4hptf")
+
+[node name="PDRB" type="Sprite3D" parent="."]
+transform = Transform3D(0.0963037, 0, 0, 0, 0.0963037, 0, 0, 0, 0.0963037, 0.553, 0.016, 0.5)
+texture = ExtResource("1_4hptf")
+
+[node name="PDRB2" type="Sprite3D" parent="."]
+transform = Transform3D(0.0963037, 0, 0, 0, 0.0963037, 0, 0, 0, 0.0963037, -0.5, 0.016, 0.5)
+texture = ExtResource("1_4hptf")
+
+[node name="Camera3D" type="Camera3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 0.990268, 0.139173, 0, -0.139173, 0.990268, 0, 0.25, 2)
+
+[node name="Suelo" type="Sprite3D" parent="."]
+axis = 1
+texture = ExtResource("2_cbcai")
